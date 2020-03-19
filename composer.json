@@ -26,6 +26,12 @@
     "phpunit/phpunit": "^8.5",
     "orchestra/testbench": "^5.0"
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/victorbondaruk/column-sortable"
+        }
+    ],
   "autoload": {
     "psr-4": {
       "VictorBondaruk\\ColumnSortable\\": "src/ColumnSortable/"
